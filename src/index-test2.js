@@ -9,7 +9,9 @@ import Message from './Message';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Welcome name="John" />
+    <Message message="React is great!" />
   </React.StrictMode>
 );
 
