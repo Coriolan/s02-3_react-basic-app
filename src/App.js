@@ -9,12 +9,12 @@ import LoginControl from './LoginControl';
 function App() {
   return (
     <div>
-      {/* <Welcome name="John" />
+      <Welcome name="John" />
       <Message message="React is great!" />
       <Clock />
       <ToggleButton />
-      <Greeting isLoggedIn /> */}
-      <LoginControl/>
+      <Greeting isLoggedIn />
+      <LoginControl hasNewMessage credit={100} />
     </div>
   );
 }
